@@ -3,25 +3,25 @@
 
 
 import math
-
 def square_root(a: float) -> float:
-    return 0.0
-
+    result=math.sqrt(a)
+    return result1
+square_root(4)
 
 def square(a: float) -> float:
-    return 0.0
+    return a**2
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    return (a+b+c)/3
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return 0.0
+    return (angle_degs+ (angle_mins/60)+ (angle_sec/3600))*(math.pi/180)
 
 
 def to_degrees(angle_rads: float) -> tuple:
-    return 0.0, 0.0, 0.0
+    return (angle_rads/math.pi)*180
 
 
 def to_celsius(temperature: float) -> float:
